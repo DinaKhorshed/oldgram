@@ -1,19 +1,34 @@
-# Getting Started
-Install the dependencies and run the project
+# Oldgram
+
+A minimal, Instagram-inspired social feed built with plain HTML, CSS, and JavaScript—no framework or build step. Posts are rendered from a small in-memory list of profiles (name, avatar, location, image, caption, likes). Users can increment likes by tapping the heart or double-clicking a post.
+
+## Features
+
+- Scrollable feed with header, avatars, post images, and captions
+- Like counter updates on heart button click or double-click on the post
+- Styled with [Source Sans 3](https://fonts.google.com/specimen/Source+Sans+3) and a light gray page background
+
+## Project layout
+
+| File       | Role                                      |
+| ---------- | ----------------------------------------- |
+| `index.html` | Page structure and post container       |
+| `index.css`  | Layout and visual styles                |
+| `index.js`   | Post data, DOM rendering, like handler  |
+| `images/`    | Logos, icons, avatars, and post photos  |
+
+## Running locally
+
+Open `index.html` in a browser, or serve the repo root with any static file server (recommended if you hit browser restrictions with `file://` URLs).
+
+Example with Python:
+
+```bash
+python -m http.server 8080
 ```
-npm install
-npm start
-```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+Then visit `http://localhost:8080`.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Requirements
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+Place the asset files expected by `index.js` and `index.html` under `images/` (e.g. `logo.png`, `user-avatar.png`, icons, and the avatar/post JPEGs referenced in the posts array).
