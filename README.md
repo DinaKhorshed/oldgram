@@ -19,7 +19,7 @@ A minimal, Instagram-inspired social feed built with plain HTML, CSS, and JavaSc
 
 ## View Live Version
 
-the project is deployed to [netlify] (https://oldgram-dhk.netlify.app/), have fun!
+the project is deployed to [netlify](https://oldgram-dhk.netlify.app/) have fun!
 
 ## Running locally
 
