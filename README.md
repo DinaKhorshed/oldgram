@@ -17,6 +17,10 @@ A minimal, Instagram-inspired social feed built with plain HTML, CSS, and JavaSc
 | `index.js`   | Post data, DOM rendering, like handler  |
 | `images/`    | Logos, icons, avatars, and post photos  |
 
+## View Live Version
+
+the project is deployed to [netlify] (https://oldgram-dhk.netlify.app/), have fun!
+
 ## Running locally
 
 Open `index.html` in a browser, or serve the repo root with any static file server (recommended if you hit browser restrictions with `file://` URLs).
