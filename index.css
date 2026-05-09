@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #EDEDED;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+header {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.logo {
+    max-width: 50%;
+}
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+} 
+.post {
+    background-color: white;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    max-width: 100%;
+}
+.user-details {
+    display: flex;
+    padding: 10px;
+    column-gap: 10px;   
+    align-items: center;
+    font-size: 0.9rem;
+}
+.user-details img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-details .name {
+   font-weight: 700; 
+}
+
+.post-image {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.actions button {
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    transition: 0.1s width,opacity ease-in ;
+}
+
+.actions {
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.actions button img {
+    width: 100%;
+    object-fit: fill;
+}
+
+.actions button:hover,
+.actions button:focus {
+    width: 35px;
+    opacity: 0.4;
+    transition: 0.1s width, opacity ease-in ;
+}
+
+.likes-counter {
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.user-caption {
+    padding: 10px;
+}
